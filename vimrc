@@ -1,6 +1,5 @@
 set nocompatible                  " This option stops vim from behaving in a strongly vi -compatible way
 
-syntax on                         " Turn on vim's syntax highlighting
 filetype plugin indent on         " Enable file type detection
 
 set autoindent
