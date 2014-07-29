@@ -15,6 +15,7 @@ set incsearch                     " start searching when you type the first char
 set laststatus=2                  " Always show the status line, also needed for powerline
 set list                          " Displays whitespace
 set listchars=eol:¬               " Set end of line character
+set nobackup                      " No backup files
 set noerrorbells                  " Silence!
 set nomodeline                    " This option will simply turn off modeline parsing altogether
 set number                        " Show line numbers all of the times
@@ -27,9 +28,6 @@ set textwidth=80                  " Let's try a textwidth (again)
 set ttimeoutlen=50                " No delay after hitting ESC
 set visualbell                    " Silence!
 set wrap                          " Lines longer than width of the window will wrap
-
-set backupdir=~/.vim/backup/      " Move backup files to /backup/
-set directory=~/.vim/backup/      " Move swp files to /backup/
 
 " commands
 :command WQ wq
